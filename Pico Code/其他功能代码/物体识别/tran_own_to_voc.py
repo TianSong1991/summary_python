@@ -1,6 +1,7 @@
 import os
 import shutil
-
+from xml.dom.minidom import parse
+import xml.dom.minidom
 myowndata_path = '/media/pico/886835D26835C02C/Kevin_ubuntu/data/myowndata'
 
 myowndata_voc_path = '/media/pico/886835D26835C02C/Kevin_ubuntu/data/myowndata_voc'
