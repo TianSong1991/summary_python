@@ -42,4 +42,16 @@ for i in range(num1):
 		shutil.copyfile(original_xml_path,new_xml_path)
 		num2 = num2 + 1
 
-
+for file1 in os.listdir(xml_path):
+	path2 = os.path.join(xml_path,file1)
+	(name3,extension3) = os.path.splitext(path2)
+	(name4,extension4) = os.path.split(name3)
+	print(path2)
+	xml1 = parse(path2)
+	content_xml = xml1.documentElement
+	xml_name = content_xml.getElementsByTagName('filename')
+	if xml_name[0].firstChild.data != extension4+".jpg":
+		#print(xml_name[0].firstChild.data)
+		xml_name[0].firstChild.data = extension4+".jpg"
+		with open(path2,'w') as fh:
+			xml1.writexml(fh)
