@@ -1,6 +1,6 @@
 import os
 import cv2
-depth_path = '/media/pico/data/Project_FaceDetection/Data_Tengxun/01_Original_data/stronglight/data0214/name1/depth/'
+depth_path = '******/name1/depth/'
 
 
 def print_depth_value(path1):
