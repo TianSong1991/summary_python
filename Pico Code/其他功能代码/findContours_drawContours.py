@@ -1,11 +1,6 @@
 import os
 import numpy as np 
-import pandas as pd 
-import math
 import cv2
-import xml.etree.ElementTree as ET
-import xml.dom.minidom
-import xml
 
 #read yml
 fs = cv2.FileStorage("F:\\adb\\depth0.yml", cv2.FILE_STORAGE_READ)
