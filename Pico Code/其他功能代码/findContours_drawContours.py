@@ -27,16 +27,10 @@ a,b = cv2.split(distance_matrix2)
 
 
 #revalue the single map channel
-for i in range(a.shape[0]):
-	for j in range(a.shape[1]):
-		if a[i,j] < 0 :
-			a[i,j] = 0
-		else:
-			a[i,j] = 255
-
+c = np.where(a<0,0,255)
 
 #imwrite and read and delete
-cv2.imwrite('D:\\test.png',a)
+cv2.imwrite('D:\\test.png',c)
 
 a1 = cv2.imread('D:\\test.png')
 
