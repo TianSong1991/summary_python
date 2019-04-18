@@ -1,3 +1,4 @@
+#读取txt文本，并对map映射生成rgb图
 import os
 import numpy as np 
 import pandas as pd 
