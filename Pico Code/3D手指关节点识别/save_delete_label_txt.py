@@ -1,6 +1,6 @@
 import os
 import pandas as pd
-
+import shutil
 path1 = 'H:\\CV2\\data\\8\\8_20190718_label'
 path2 = 'H:\\CV2\\data\\8\\y\\label'
 
