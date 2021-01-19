@@ -1,0 +1,31 @@
+data directory: D:/数据
+starting frequency: 0.1
+end frequency: 2.5
+
+training data:
+DL酪氨酸数据, 1
+空采数据, 1
+亮氨酸数据, 2
+糖数据, 2
+缬氨酸数据, 2
+卡马西平片, 2
+司乐平, 2
+盐酸土霉素, 2
+
+testing data:
+物质识别202101140956
+L-酪氨酸 202101141043
+
+training samples:
+DL酪氨酸数据
+空采数据
+亮氨酸数据
+糖数据
+缬氨酸数据
+卡马西平片
+司乐平
+盐酸土霉素
+
+testing files:
+物质识别202101140956
+L-酪氨酸 202101141043
