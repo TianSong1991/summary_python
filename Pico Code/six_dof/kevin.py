@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-
+import os
 
 def SlerpInsert(p, q, t):
     w0, x0, y0, z0 = p
